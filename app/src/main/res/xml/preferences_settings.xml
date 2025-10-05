@@ -26,26 +26,7 @@
         app:layout="@layout/item_preference"
         app:title="@string/onboarding_title_permissions" />
 
-    <Preference
-        app:icon="@drawable/ic_installation"
-        app:iconSpaceReserved="false"
-        app:key="pref_install"
-        app:layout="@layout/item_preference"
-        app:title="@string/title_installation" />
 
 
-    <Preference
-        app:icon="@drawable/ic_network"
-        app:iconSpaceReserved="false"
-        app:key="pref_network"
-        app:layout="@layout/item_preference"
-        app:title="@string/pref_network_title" />
-
-    <Preference
-        app:icon="@drawable/ic_updates"
-        app:iconSpaceReserved="false"
-        app:key="pref_updates"
-        app:layout="@layout/item_preference"
-        app:title="@string/title_updates" />
 
 </PreferenceScreen>
